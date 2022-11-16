@@ -11,11 +11,11 @@ public interface UserDao {
 
     void delete(long id);
 
-    User get(long id);
+    User getUser(long id);
 
     void update(User user);
 
-    List<User> read();
+    List<User> getListOfUsers();
 
     void cleanUsersTable();
 }
